@@ -1,3 +1,5 @@
+# Learning diary
+
 ## Chapter 1
 
 - Mostly things I'm already familiar with: git, vs code setup, Prettier
@@ -23,3 +25,7 @@
 
 - `grid-template-areas` is super cool. I have used CSS grid before and always found it a bit cumbersome, but this makes so much sense for mapping out the grid layout.
 - A sticky footer makes a lot of sense to implement this way. Cool idea.
+
+## Chapter 6
+
+- Mostly familiar things here. I have used flexbox before and tend to prefer it over grid, although they both have their uses.
