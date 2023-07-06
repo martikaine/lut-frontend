@@ -12,3 +12,14 @@
 ## Chapter 3
 
 - The rotation/translation transitions were new to me.
+
+## Chapter 4
+
+- For loops in SCSS seem handy, good to keep in mind that they exist
+- Using `translate3d()` to slide content in from outside the page seems like a neat "party trick". I think animations are cool when used sparingly, but can get annoying if overused.
+- I had not worked with media queries before, and I at least understand the basics now. Very important stuff in this day and age.
+
+## Chapter 5
+
+- `grid-template-areas` is super cool. I have used CSS grid before and always found it a bit cumbersome, but this makes so much sense for mapping out the grid layout.
+- A sticky footer makes a lot of sense to implement this way. Cool idea.
