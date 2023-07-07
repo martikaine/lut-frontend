@@ -1,0 +1,115 @@
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1170px) {
+    @content;
+  }
+}
+
+@include mediaXl {
+  .projects-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@include mediaLg {
+  .title-container {
+    align-items: center;
+    text-align: center;
+    left: auto;
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@include mediaMd {
+  #navbar {
+    justify-content: right;
+
+    a {
+      display: none;
+    }
+
+    .icon {
+      display: block;
+    }
+
+    &.responsive-open {
+      flex-direction: column;
+
+      .navlink {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      .icon {
+        text-align: right;
+      }
+    }
+  }
+
+  .title-container {
+    align-items: center;
+    text-align: center;
+    left: auto;
+    width: 100%;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .job {
+    img {
+      display: none;
+    }
+  }
+
+  .bio {
+    flex-direction: column;
+    justify-content: left;
+
+    .bio-image {
+      margin-right: 0;
+    }
+  }
+
+  .pimg2,
+  .pimg3 {
+    min-height: 200px;
+  }
+}
+
+@include mediaSm {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

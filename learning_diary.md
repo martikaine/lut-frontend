@@ -1,8 +1,10 @@
 # Learning diary
 
+Following along the chapters of the [Responsive Portfolio Website](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU&index=1) project.
+
 ## Chapter 1
 
-- Mostly things I'm already familiar with: git, vs code setup, Prettier
+- Mostly things I'm already familiar with: git, VS Code setup, Prettier
 - Haven't used SCSS before, so that was new. I had to install it globally to get the scripts working, while the tutorial installs it locally. Could be a Windows vs. Mac thing.
 
 ## Chapter 2
@@ -28,4 +30,9 @@
 
 ## Chapter 6
 
-- Mostly familiar things here. I have used flexbox before and tend to prefer it over grid, although they both have their uses.
+- Mostly familiar things for me here. I have used flexbox before and tend to prefer it over grid for most things, although they both have their uses.
+
+## Chapter 7 & building the final project
+
+- I skipped this part initially because it seemed straightforward enough and I wanted to save deployment for the final project.
+- For the final version, I took inspiration from the recommended "[Basic Parallax Website With HTML & CSS](https://www.youtube.com/watch?v=JttTcnidSdQ)" tutorial and included learnings from the sample project, such as SCSS and a responsive layout. I also decided to add a navbar that scrolls across the page to navigate between sections, which collapses neatly into a hamburger menu on mobile.
