@@ -14,6 +14,12 @@ function addNavLinkClickHandlers() {
       document.querySelector(link.getAttribute("href")).scrollIntoView({
         behavior: "smooth",
       });
+
+      const isResponsiveMenuVisible =
+        document.querySelector(".menu-toggle").style.display !== "none";
+      if (isResponsiveMenuVisible) {
+        toggleMenu();
+      }
     });
   });
 }

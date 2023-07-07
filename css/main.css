@@ -35,7 +35,7 @@ h3 {
     background-color: #689f4f;
     border-radius: 50px;
     transition: all 0.5s ease-out; }
-  #navbar .icon {
+  #navbar .menu-toggle {
     display: none; }
 
 .text-secondary {
@@ -189,7 +189,7 @@ h3 {
     justify-content: right; }
     #navbar a {
       display: none; }
-    #navbar .icon {
+    #navbar .menu-toggle {
       display: block; }
     #navbar.responsive-open {
       flex-direction: column; }
@@ -197,7 +197,7 @@ h3 {
         float: none;
         display: block;
         text-align: left; }
-      #navbar.responsive-open .icon {
+      #navbar.responsive-open .menu-toggle {
         text-align: right; }
   .title-container {
     align-items: center;
